@@ -23,12 +23,12 @@ export default function App() {
           <View className="relative mt-5">
             <Text className="font-bold text-3xl text-white text-center">
               Unleash Trends, Embrace the Future.{" "}
-              <Text className="text-secondary-100">Aora</Text>
+              <Text className="text-secondary-100">TrendTube</Text>
             </Text>
             <Image
               source={images.path}
               resizeMode="contain"
-              className="absolute top-[52px] right-[80px] w-[80px]"
+              className="absolute top-[52px] right-[50px] w-[80px]"
             />
             <Text className="text-gray-100 text-center mt-7 px-4">
               Where Creativity Meets Innovation: Embark on a Journey of
@@ -42,7 +42,7 @@ export default function App() {
             }}
             buttonCustomStyle="w-[90%] mt-10"
           />
-          <StatusBar style="light" />
+          <StatusBar style="light" backgroundColor="black"/>
         </View>
       </ScrollView>
     </SafeAreaView>
